@@ -1,7 +1,16 @@
 def instantiate_new_array
    ary = Array.new
 end
+
 def array_with_two_elements
   ary = Array.new
   Array.new(2, "cat")
+end
+
+def first_element(array)
+  array[0]
+end
+
+def third_element(array)
+  array[2]
 end
